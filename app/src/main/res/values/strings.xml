@@ -8,8 +8,5 @@
     <string name="btnEnviar">Enviar</string>
     <string name="title_activity_nombre_item">nombre del item</string>
     <string name="title_activity_lista_categorias">lista_categorias</string>
-    <string name="title_activity_items_que_hacer">items_que_hacer</string>
-    <string name="title_activity_items_que_visitar">items_que_visitar</string>
-    <string name="title_activity_items_donde_dormir">items_donde_dormir</string>
 
 </resources>
