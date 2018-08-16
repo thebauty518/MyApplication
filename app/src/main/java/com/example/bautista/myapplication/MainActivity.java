@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
+public boolean onCreateOptionsMenu(Menu menu) {
+    // Inflate the menu; this adds items to the action bar if it is present.
+    getMenuInflater().inflate(R.menu.menu_main, menu);
+    return true;
+}
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -45,21 +45,23 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
 
-        if (id == R.id.salir) {
+        if (id == R.id.mSalir) {
+            finish();
+            return true;
+
+        }
+
+        if (id == R.id.mAyuda) {
             return true;
         }
 
-        if (id == R.id.ayuda) {
-            return true;
-        }
-
-        if (id == R.id.registrarse) {
+        if (id == R.id.mRegistrarse) {
             Intent registrarse = new Intent(this, registrar_persona.class);
             startActivity(registrarse);
             return true;
         }
 
-        if (id == R.id.configuracion) {
+        if (id == R.id.mConfiguracion) {
             return true;
         }
 

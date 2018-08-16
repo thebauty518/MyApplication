@@ -7,5 +7,6 @@
     <string name="lbTelefono"> Ingrese su No. Celular</string>
     <string name="btnEnviar">Enviar</string>
     <string name="title_activity_nombre_item">nombre del item</string>
+    <string name="title_activity_lista_categorias">lista_categorias</string>
 
 </resources>

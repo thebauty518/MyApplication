@@ -27,6 +27,10 @@
         <activity
             android:name=".nombre_item"
             android:label="@string/title_activity_nombre_item"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lista_categorias"
+            android:label="@string/title_activity_lista_categorias"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

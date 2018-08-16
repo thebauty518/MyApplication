@@ -3,22 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.bautista.myapplication.MainActivity">
     <item
-        android:id="@+id/registrarse"
+        android:id="@+id/mRegistrarse"
         android:orderInCategory="100"
         android:title="registrarse"
         app:showAsAction="never" />
     <item
-        android:id="@+id/configuracion"
+        android:id="@+id/mConfiguracion"
         android:orderInCategory="100"
         android:title="configuracion"
         app:showAsAction="never" />
     <item
-        android:id="@+id/ayuda"
+        android:id="@+id/mAyuda"
         android:orderInCategory="100"
         android:title="ayuda"
         app:showAsAction="never" />
     <item
-        android:id="@+id/salir"
+        android:id="@+id/mSalir"
         android:orderInCategory="100"
         android:title="salir"
         app:showAsAction="never" />
