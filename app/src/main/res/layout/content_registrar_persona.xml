@@ -18,13 +18,12 @@
         android:text="@string/lbNombre" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/TxtNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:layout_marginBottom="10dp"
-        />
+        android:ems="10"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView3"
@@ -34,12 +33,12 @@
         />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/TxtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:ems="10"
-        android:inputType="textEmailAddress"
-        android:layout_marginBottom="10dp"/>
+        android:inputType="textEmailAddress" />
 
     <TextView
         android:id="@+id/textView4"
@@ -49,18 +48,40 @@
         />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/TxtNcelular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:textAlignment="center"
-        android:layout_marginBottom="20dp"/>
+        android:textAlignment="center" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:id="@+id/Registrar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/btnEnviar" />
+        android:onClick="Registrar"
+        android:text="Registrar" />
+
+    <Button
+        android:id="@+id/Buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Buscar"
+        android:text="Buscar" />
+
+    <Button
+        android:id="@+id/Modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Modificar"
+        android:text="Modificar" />
+
+    <Button
+        android:id="@+id/Eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="eliminar"
+        android:text="Eliminar" />
 </LinearLayout>
