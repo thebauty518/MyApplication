@@ -11,5 +11,8 @@
     <string name="title_activity_items_que_hacer">items_que_hacer</string>
     <string name="title_activity_items_que_visitar">items_que_visitar</string>
     <string name="title_activity_items_donde_dormir">items_donde_dormir</string>
+    <string name="title_activity_items_donde_comer">items_donde_comer</string>
+    <string name="title_activity_items_llamadas">items_llamadas</string>
+    <string name="title_activity_items_servicios_turisticos">items_servicios_turisticos</string>
 
 </resources>

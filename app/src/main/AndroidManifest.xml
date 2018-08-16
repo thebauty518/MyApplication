@@ -43,6 +43,18 @@
         <activity
             android:name=".items_donde_dormir"
             android:label="@string/title_activity_items_donde_dormir"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".items_donde_comer"
+            android:label="@string/title_activity_items_donde_comer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".items_llamadas"
+            android:label="@string/title_activity_items_llamadas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".items_servicios_turisticos"
+            android:label="@string/title_activity_items_servicios_turisticos"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
