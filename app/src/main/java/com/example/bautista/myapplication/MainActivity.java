@@ -1,5 +1,6 @@
 package com.example.bautista.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -43,7 +44,22 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+
+        if (id == R.id.salir) {
+            return true;
+        }
+
+        if (id == R.id.ayuda) {
+            return true;
+        }
+
+        if (id == R.id.registrarse) {
+            Intent registrarse = new Intent(this, registrar_persona.class);
+            startActivity(registrarse);
+            return true;
+        }
+
+        if (id == R.id.configuracion) {
             return true;
         }
 

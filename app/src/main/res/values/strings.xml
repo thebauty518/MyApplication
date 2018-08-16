@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_registrar_persona">registrarse</string>
+    <string name="lbNombre">Ingrese su Nombre</string>
+    <string name="lbEmail">Ingrese su Email</string>
+    <string name="lbTelefono"> Ingrese su No. Celular</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="title_activity_nombre_item">nombre del item</string>
+
 </resources>
