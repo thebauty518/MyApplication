@@ -18,10 +18,6 @@ import android.widget.Toast;
 
 public class registrar_persona extends AppCompatActivity {
 
-EditText Nombre = (EditText)findViewById(R.id.TxtNombre);
-    EditText Email = (EditText)findViewById(R.id.TxtEmail);
-    EditText Celular = (EditText)findViewById(R.id.TxtNcelular);
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,8 +34,14 @@ EditText Nombre = (EditText)findViewById(R.id.TxtNombre);
                         .setAction("Action", null).show();
             }
         });
+
     }
     public void Registrar(View view){
+
+        EditText Nombre = (EditText)findViewById(R.id.TxtNombre);
+        EditText Email = (EditText)findViewById(R.id.TxtEmail);
+        EditText Celular = (EditText)findViewById(R.id.TxtNcelular);
+
         adminSQLiteOpenHelper admin = new adminSQLiteOpenHelper(this, "BaseDeDatos", null, 1 );
         SQLiteDatabase BaseDeDatos =admin.getReadableDatabase();
 
@@ -65,6 +67,11 @@ EditText Nombre = (EditText)findViewById(R.id.TxtNombre);
     }
 
     public void Buscar(View view){
+
+        EditText Nombre = (EditText)findViewById(R.id.TxtNombre);
+        EditText Email = (EditText)findViewById(R.id.TxtEmail);
+        EditText Celular = (EditText)findViewById(R.id.TxtNcelular);
+
         adminSQLiteOpenHelper admin = new adminSQLiteOpenHelper(this, "BaseDeDatos", null, 1 );
         SQLiteDatabase BaseDeDatos = admin.getWritableDatabase();
         String Nombres= Nombre.getText().toString();
@@ -89,6 +96,11 @@ EditText Nombre = (EditText)findViewById(R.id.TxtNombre);
 
 
     public void eliminar (View view){
+
+        EditText Nombre = (EditText)findViewById(R.id.TxtNombre);
+        EditText Email = (EditText)findViewById(R.id.TxtEmail);
+        EditText Celular = (EditText)findViewById(R.id.TxtNcelular);
+
         adminSQLiteOpenHelper admin = new adminSQLiteOpenHelper(this, "BaseDeDatos", null, 1 );
         SQLiteDatabase base = admin.getWritableDatabase();
         String Nombres= Nombre.getText().toString();
@@ -111,6 +123,11 @@ EditText Nombre = (EditText)findViewById(R.id.TxtNombre);
     }
 
     public void Modificar (View view){
+
+        EditText Nombre = (EditText)findViewById(R.id.TxtNombre);
+        EditText Email = (EditText)findViewById(R.id.TxtEmail);
+        EditText Celular = (EditText)findViewById(R.id.TxtNcelular);
+
         adminSQLiteOpenHelper Admin = new adminSQLiteOpenHelper(this, "BaseDeDatos", null, 1 );
         SQLiteDatabase Base = Admin.getWritableDatabase();
         String Nombres= Nombre.getText().toString();
